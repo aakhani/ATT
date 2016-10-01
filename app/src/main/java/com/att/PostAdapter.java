@@ -27,7 +27,6 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.PostViewHolder
         this.postList = postList;
         this.rowLayout = rowLayout;
         this.context = context;
-        Log.e("Post size", postList.size()+"");
     }
 
     @Override
